@@ -3,7 +3,7 @@ package com.makesailing.neo.mv.thread.t2;
 import java.util.concurrent.TimeUnit;
 
 /**
- * #
+ * # 创建线程之 : 继承 Thread类
  *
  * @Author: jamie.li
  * @Date: Created in  2018/12/23 21:52
