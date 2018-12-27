@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * # 普通加锁的单例模式
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/27 16:16
  */
 public class Singleton {

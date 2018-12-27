@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * # 验证一个对象一把锁,多个线程多个锁 .
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/27 14:12
  */
 public class MultiThread {

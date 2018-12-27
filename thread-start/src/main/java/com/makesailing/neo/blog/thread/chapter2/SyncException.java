@@ -3,7 +3,7 @@ package com.makesailing.neo.blog.thread.chapter2;
 /**
  * # Synchronized 出现异常时,锁会自动释放
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/27 15:55
  */
 public class SyncException {

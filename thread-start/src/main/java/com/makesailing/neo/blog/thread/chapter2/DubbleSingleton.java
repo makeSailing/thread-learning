@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * # 单例模式-双重校验锁
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/27 16:20
  */
 public class DubbleSingleton {

@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * # 可以将任意对象作为监听器
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/27 16:06
  */
 public class StringLock {

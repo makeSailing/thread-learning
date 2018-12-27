@@ -3,7 +3,7 @@ package com.makesailing.neo.blog.thread.chapter1;
 /**
  * #
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/27 14:01
  */
 public class Demo1 extends Thread {
