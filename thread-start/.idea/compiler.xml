@@ -10,5 +10,8 @@
         <module name="thread-start" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thread-start" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

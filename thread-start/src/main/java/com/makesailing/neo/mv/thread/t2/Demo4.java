@@ -14,7 +14,7 @@ public class Demo4 implements Callable<Integer> {
 
     public static void main(String[] args) throws Exception {
         Demo4 demo4 = new Demo4();
-        FutureTask<Integer> task = new FutureTask<>(demo4);
+        FutureTask<Integer> task = new FutureTask<Integer>(demo4);
 
         Thread thread = new Thread(task);
         thread.start();
