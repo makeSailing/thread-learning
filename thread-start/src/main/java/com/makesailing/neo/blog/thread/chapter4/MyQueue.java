@@ -26,7 +26,7 @@ public class MyQueue {
 	private final int minSize = 0;
 
 	// 4.初始化锁对象
-	private final Object lock = new Object();
+	private static  final Object lock = new Object();
 
 	public void put(Object obj) {
 		synchronized (lock) {
@@ -83,9 +83,18 @@ public class MyQueue {
 
 		}, "t1");
 
+		final Thread t3 = new Thread(() -> {
+			myQueue.put("g");
+			myQueue.put("h");
+
+		}, "t3");
+
 		Thread t2 = new Thread(() -> {
 			try {
 				TimeUnit.MILLISECONDS.sleep(200);
+				// 如果注释掉正面这行,会出现死锁. 元素 size =5,锁对象一直处于等待的状态,没有人唤醒.
+				// 其他的线程也进不来, t3 线程就是为了测试这情况
+				// TODO 等待解决方案
 				myQueue.get();
 				TimeUnit.MILLISECONDS.sleep(200);
 				myQueue.get();
@@ -97,6 +106,11 @@ public class MyQueue {
 		t1.start();
 		TimeUnit.MILLISECONDS.sleep(1000);
 		t2.start();
+
+		TimeUnit.MILLISECONDS.sleep(2000);
+		t3.start();
+
+
 
 	}
 
