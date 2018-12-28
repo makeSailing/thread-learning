@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 2. Object中的notify()方法相当于Condition中的signal()方法
  * 3. Object中notifyAll()方法相当于Condition中的signalAll()方法
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/28 15:42
  */
 public class LockConditionDemo {

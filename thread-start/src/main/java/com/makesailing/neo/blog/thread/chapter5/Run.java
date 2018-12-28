@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * # ReentrantLock 实现线程间同步
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/28 15:24
  */
 public class Run {

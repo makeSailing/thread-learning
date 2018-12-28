@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * ReentrantReadWriteLock 有两个锁: 读锁(共享锁),写锁(排他锁);
  * 特性: 读读共享 写写互斥 读写互斥 写读互斥
  *
- * @author <a href="mailto:jamie.li@wolaidai.com">jamie.li</a>
+ * @author jamie
  * @date 2018/12/28 16:13
  */
 public class ReentrantReadWriteLockDemo {
